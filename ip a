@@ -1,0 +1,15 @@
+******** /etc/netplan/00-installer-config.yaml                    
+
+network:
+  ethernets:
+    enp0s3:
+      addresses:
+      - 10.7.135.15/16
+      gateway4: 10.7.0.101
+      nameservers:
+        addresses:
+        - 8.8.8.8
+  version: 2
+ 
+ sudo netplan apply (щоб застосувати)
+********************
